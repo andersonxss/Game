@@ -5,6 +5,5 @@ export { default as RouteLayout } from "./RouteLayout";
 export { default as Main } from "./Main";
 export { default as Button } from "./Button";
 export { default as ButtonBack } from "./ButtonBack";
-export { default as BackdropLoad } from "./BackdropLoad";
 export { default as TopHeaderBack } from "./TopHeaderBack";
 export { default as RightDrawer } from "./RightDrawer";
