@@ -1,0 +1,32 @@
+@import "../../common/colors.scss";
+.topHeaderBack {
+  width: 100%;
+  padding-top: 6rem;
+  .topHeaderBackContainer {
+    display: flex;
+    align-items: center;
+
+    .topHeaderDescricao > p {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 57px;
+
+      span {
+        font-weight: 100;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .topHeaderDescricao > p {
+        font-size: 2rem;
+      }
+    }
+  }
+  .CopaGamesGreen {
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+  }
+}

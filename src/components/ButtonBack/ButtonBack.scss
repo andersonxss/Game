@@ -1,0 +1,40 @@
+@import "../../common/colors.scss";
+.containerButtonBack {
+  width: 154px;
+  height: 24px;
+
+  .buttonBack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Rounded";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: $black-default;
+    &:hover {
+      color: $black-hover;
+    }
+    &:focus {
+      color: $black-press;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .buttonBack p {
+      display: none;
+    }
+  }
+  img {
+    width: 13.64px;
+    height: 23px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .containerButtonBack {
+    width: 54px;
+  }
+}

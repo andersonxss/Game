@@ -1,0 +1,88 @@
+@import "../../common/colors.scss";
+@import "../../common/Global.scss";
+.resultGamesTopDescricao {
+  color: $white-color;
+}
+.resultGamesContainer {
+  width: 100%;
+  height: 80.1vh;
+  padding-top: 2rem;
+
+  .containerButtonBack {
+    .buttonBack {
+      color: $white-color;
+    }
+  }
+
+  .resultGamesCardsPrimeiroColocado {
+    width: auto;
+    max-width: 300px;
+    min-width: 200px;
+
+    max-height: 470px;
+    background-color: $blue-color;
+    box-shadow: none;
+    background-image: none;
+    &::before {
+      position: absolute;
+      content: "";
+      background-image: url("../../assets/seloPrimeiroColocado.svg");
+      width: 96.45px;
+      height: 94.83px;
+      background-repeat: no-repeat;
+      background-position: top;
+      margin-top: -42px;
+      margin-left: -42px;
+    }
+    img {
+      width: 100%;
+      height: 340px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: 5px solid;
+      border-image: linear-gradient(to right, #56ccf2, #56ccf200) 1;
+      border-image: linear-gradient(to left, #56ccf2, #56ccf2) 1;
+    }
+
+    .resultGamesCardsContainer {
+      padding: 0;
+      margin: 0;
+      @include resultGamesCardsContainer;
+    }
+  }
+
+  .resultGamesCardsSegundoColocado {
+    width: auto;
+    max-width: 215px;
+    min-width: 185px;
+    background-color: $blue-color;
+    box-shadow: none;
+    background-image: none;
+    &::before {
+      position: absolute;
+      content: "";
+      background-image: url("../../assets/seloSegundoColocado.svg");
+      width: 96.45px;
+      height: 94.83px;
+      background-repeat: no-repeat;
+      background-position: top;
+      margin-top: -32px;
+      margin-left: -36px;
+    }
+    img {
+      width: 100%;
+      height: 303px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: 5px solid;
+      border-image: linear-gradient(to right, #56ccf2, #56ccf200) 1;
+      border-image: linear-gradient(to left, #56ccf2, #56ccf2) 1;
+    }
+
+    .resultGamesCardsContainer {
+      padding: 0;
+      margin: 0;
+      @include resultGamesCardsContainer;
+    }
+  }
+}

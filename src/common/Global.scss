@@ -1,0 +1,37 @@
+@mixin font-family-sf-pro-rounded {
+  font-family: "SF Pro Rounded";
+}
+
+@mixin resultGamesCardsContainer {
+  .titulo {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+    padding-top: 15px;
+  }
+  .game {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 21px;
+    padding-top: 15px;
+  }
+
+  .anoConseole {
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+
+    line-height: 21px;
+    padding-top: 15px;
+  }
+
+  @media (max-width: 900px) {
+    .game {
+      font-size: 20px;
+    }
+    .anoConseole {
+      font-size: 16px;
+    }
+  }
+}

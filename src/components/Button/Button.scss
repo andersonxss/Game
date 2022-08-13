@@ -1,0 +1,26 @@
+@import "../../common/colors.scss";
+@import "../../common/Global.scss";
+button {
+  min-width: 162px;
+  height: 49px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 16px 32px;
+  border-radius: 16px;
+  @include font-family-sf-pro-rounded;
+  border: 0;
+  cursor: pointer;
+  background-color: $green-default;
+  &:hover {
+    background-color: $green-hover;
+  }
+  &:focus {
+    background-color: $green-press;
+  }
+  &:disabled {
+    background-color: $green-disabled;
+    cursor: no-drop;
+  }
+}

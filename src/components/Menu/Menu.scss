@@ -1,0 +1,8 @@
+@import "../../common/colors.scss";
+.menuContainer {
+  display: flex;
+  gap: 25px;
+  a {
+    color: $white-color;
+  }
+}

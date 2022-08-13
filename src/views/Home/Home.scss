@@ -1,0 +1,45 @@
+@import "../../common/colors.scss";
+
+.homeContainer {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+
+  .homeDescricao {
+    width: 50%;
+    color: #ffffff;
+
+    .copaGamesWhite {
+      margin-top: 32px;
+      margin-bottom: 32px;
+      max-width: 60%;
+      min-width: 50%;
+    }
+  }
+
+  .homeJoystick {
+    width: 50%;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-image: url("../../assets/joystick.svg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    height: 80%;
+    right: 0;
+    top: 63px;
+  }
+
+  @media (max-width: 600px) {
+    &::before {
+      top: 50px;
+    }
+    .homeDescricao {
+      width: 100%;
+    }
+  }
+}
