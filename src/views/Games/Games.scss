@@ -2,6 +2,7 @@
 .topGamesDescricao {
   color: $green-default;
 }
+
 .containerGames {
   width: auto;
   height: 100%;
@@ -126,6 +127,12 @@
           margin-top: 12px;
         }
       }
+    }
+  }
+
+  @media (max-width: 600px) {
+    .containerCardsGames {
+      padding: 30px 0 100px 0px;
     }
   }
 }

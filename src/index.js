@@ -11,9 +11,6 @@ const Theme = createTheme({
   typography: {
     fontFamily: "SF Pro Rounded",
   },
-  palette: {
-    mode: "dark",
-  },
 });
 root.render(
   <React.StrictMode>

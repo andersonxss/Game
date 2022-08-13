@@ -1,16 +1,16 @@
 import React from "react";
 import { ButtonBack } from "components";
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Container, Grid } from "@mui/material";
 import "./TopHeaderBack.scss";
 
 const Index = (props) => {
-  const { children } = props;
+  const { children, color } = props;
   return (
     <Container fixed={true}>
       <Box className="topHeaderBack">
         <Grid container className="topHeaderBackContainer">
           <Grid item xs={2}>
-            <ButtonBack />
+            <ButtonBack color={color} />
           </Grid>
           <Grid item xs={8}>
             <Box

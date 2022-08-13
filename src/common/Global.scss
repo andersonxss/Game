@@ -1,8 +1,11 @@
+@import "./colors.scss";
+
 @mixin font-family-sf-pro-rounded {
   font-family: "SF Pro Rounded";
 }
 
 @mixin resultGamesCardsContainer {
+  color: $white-color;
   .titulo {
     font-size: 18px;
     font-weight: 400;
@@ -31,6 +34,12 @@
       font-size: 20px;
     }
     .anoConseole {
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .game {
       font-size: 16px;
     }
   }

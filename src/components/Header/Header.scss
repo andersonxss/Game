@@ -2,4 +2,11 @@
 .header {
   background-color: $blue-color !important;
   box-shadow: 0px 4px 56px rgba(0, 0, 0, 0.1) !important;
+
+  @media (max-width: 600px) {
+    a img {
+      width: 87px;
+      height: 16px;
+    }
+  }
 }

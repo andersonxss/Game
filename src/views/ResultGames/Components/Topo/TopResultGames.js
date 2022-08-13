@@ -5,7 +5,7 @@ import { Typography } from "@mui/material";
 
 const TopResultGames = () => {
   return (
-    <TopHeaderBack>
+    <TopHeaderBack color="white">
       <Typography className="resultGamesTopDescricao">
         Seu resultado!
       </Typography>

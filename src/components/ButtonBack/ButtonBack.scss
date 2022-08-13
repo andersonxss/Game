@@ -1,7 +1,35 @@
 @import "../../common/colors.scss";
 .containerButtonBack {
-  width: 154px;
+  width: 170px;
   height: 24px;
+  .white {
+    color: $white-color;
+    &:hover {
+      color: #cbcbcb;
+    }
+
+    svg {
+      path {
+        fill: $white-color;
+      }
+      &:hover {
+        fill: red;
+      }
+    }
+  }
+
+  .grey {
+    color: $black-default;
+    &:hover {
+      color: $black-hover;
+    }
+    &:focus {
+      color: $black-press;
+    }
+    svg path {
+      fill: $black-default;
+    }
+  }
 
   .buttonBack {
     display: flex;
@@ -12,13 +40,6 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
-    color: $black-default;
-    &:hover {
-      color: $black-hover;
-    }
-    &:focus {
-      color: $black-press;
-    }
   }
 
   @media (max-width: 900px) {
@@ -26,7 +47,7 @@
       display: none;
     }
   }
-  img {
+  svg {
     width: 13.64px;
     height: 23px;
     margin-right: 20px;

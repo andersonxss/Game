@@ -4,7 +4,7 @@ import { Typography } from "@mui/material";
 import "../../Games.scss";
 const TopGames = () => {
   return (
-    <TopHeaderBack>
+    <TopHeaderBack color="grey">
       <Typography className="topGamesDescricao">
         <span>Copa</span>Games
       </Typography>
