@@ -5,9 +5,10 @@
 }
 .resultGamesContainer {
   width: 100%;
+  min-height: 616px;
   height: 80.1vh;
-  padding-top: 2rem;
-
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   .containerButtonBack {
     .buttonBack {
       color: $white-color;
@@ -103,5 +104,13 @@
       max-width: 195px;
       min-width: 155px;
     }
+  }
+}
+
+@media (max-width: 600px) {
+  .resultGamesContainer {
+    min-height: 100%;
+    height: 100vh;
+    padding-bottom: 5rem;
   }
 }
