@@ -4,6 +4,8 @@
 
 ![](src/assets/CopaGames.png)
 
+- Link do projeto: <a href="https://copagame.herokuapp.com/" target="_blank">https://copagame.herokuapp.com/</a>
+
 ## Tecnologias
 
 Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
