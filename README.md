@@ -1,6 +1,6 @@
 # Copa Games
 
-## Ao receber a proposta da avaliação técnica, desenvolvi uma aplicação WEB de geração de partidas onde o usuário poderá selecionar 8 participantes. Após a seleção dos participantes, o sistema irá fazer o paramento das partidas sendo que com a maior nota vence. Caso haja um empate entre as notas, o vencedor será aquele com o ano de lançamento mais recente. Se ainda assim o empate persistir, o vencedor será o primeiro na ordem alfabética.
+## Ao receber a proposta da avaliação técnica, desenvolvi uma aplicação WEB de geração de partidas onde o usuário poderá selecionar 8 participantes. Após a seleção dos participantes, o sistema irá fazer o pareamento das partidas sendo que com a maior nota vence. Caso haja um empate entre as notas, o vencedor será aquele com o ano de lançamento mais recente. Se ainda assim o empate persistir, o vencedor será o primeiro na ordem alfabética.
 
 ![](src/assets/CopaGames.png)
 
